@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    background-image: url(White.jpg);
+}
+h1{
+    padding: 4px;
+    text-align: center;
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+}
+
+h3{
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 5px solid #ccccb3;
+
+    width: 300px;
+    height: auto;
+}
+
+article{
+    border: 5px solid #ccccb3;
+    margin: 20px;
+}
+
+.linkS{
+    text-align: center;
+    color: azure
+}
+
+footer{
+    background-color: #3d3d29;
+    font-family: "papyrus", "copperplate", "fantasy";
+}
+
+.close{
+    font-family: "papyrus", "copperplate", "fantasy";
+    color: azure;
+    font-size: 50px;
+}
+
+a{
+    color: burlywood;
+}
+a:hover{
+    color: dimgray;
+}
