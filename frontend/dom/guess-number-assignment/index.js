@@ -2,12 +2,12 @@
 Uncomment variable dibawah ini untuk mulai mengerjakan. dilarang mengganti nama variable yang dibuat.
 */
 
-// let newGameBtn = tombol untuk melakukan restart game
-// let randomNumber = generate random number dari 1 sampai 10
-// let message = element untuk menampilkan pesan
-// let displayScore = element untuk menampilkan score
-// let input = element untuk memasukan data
-// let checkBtn = tombol untuk melakuan pengecekan angka pada input
+let newGameBtn = document.getElementsByClassName("btn-warning")[0]
+let randomNumber = Math.floor(Math.random() * 11);
+let message = document.getElementsByClassName("message");
+let displayScore = document.getElementsByClassName("score-label");
+let input = document.getElementsByClassName("input");
+let checkBtn = document.getElementsByClassName("btn-primary");
 // let score = nilai yang akan ditampilakan
 
 // TODO: answer here

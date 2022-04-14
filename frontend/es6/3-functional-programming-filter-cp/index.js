@@ -13,9 +13,11 @@
  * - string.toLowerCase(); string.toUpperCase();
  *
  */
-
-const findAnimal = (bush) => {
-  // TODO: answer here
+// const string = "UkUNFYGaFYFYmtNUHbJKHJJiOKDJKDnKFKFLgLLF";
+// const bush = string.split('');
+// console.log(bush.toLowerCase());
+const findAnimal = (bush) => { 
+  return bush.split("").filter( item => item.toLowerCase() === item).join("")
 };
-
+console.log(findAnimal("UkUNFYGaFYFYmTNUHbJKHJJiOKDJKDnKFKFLgLLF"))
 module.exports = findAnimal
